@@ -1,0 +1,5 @@
+Domain,Structure,RMSE,Degradation,Est. J
+CFD,Green's Function,8.96 m,72%,0.31
+CFD,NRI Learned Graph,11.26 m,116%,0.06
+Acoustic,Green's Function,1.61 m,69%,0.47
+Acoustic,NRI Learned Graph,2.86 m,201%,0.19

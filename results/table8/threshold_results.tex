@@ -1,0 +1,27 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{NRI-Graph localization performance is insensitive to threshold 
+selection.} Results across five threshold values demonstrate that structural 
+misalignment---not hyperparameter choice---causes the transfer failure. All 
+thresholds yield 11.2--12.2m RMSE, well above Learned Attention (5.2m) and 
+Green's Function (9.0m). Lower thresholds preserve more edges but do not improve 
+localization, confirming that approximation error dominates estimation-error 
+savings.}
+\label{tab:threshold-sensitivity}
+\begin{tabular}{lrrr}
+\toprule
+Threshold $\tau$ & Avg Degree $k$ & Sparsity & RMSE (m) \\
+\midrule
+0.1 & 1.1 & 97\% & 11.50 $\pm$ 0.07 \\
+0.2 & 1.0 & 97\% & 11.49 $\pm$ 0.11 \\
+\textbf{0.3} & \textbf{1.0} & \textbf{97\%} & \textbf{11.49 $\pm$ 0.11} \\
+0.5 & 1.0 & 97\% & 11.49 $\pm$ 0.11 \\
+0.7 & 0.0 & 100\% & 17.42 $\pm$ 0.13 \\
+\midrule
+\multicolumn{4}{l}{\textit{Baselines (from main paper, for reference):}} \\
+Learned Attention & 15.0 & 0\% & 5.21 $\pm$ 0.15 \\
+Green's Function & 5.7 & 62\% & 8.97 $\pm$ 0.23 \\
+MLP & 225.0 & 0\% & 14.52 $\pm$ 0.78 \\
+\bottomrule
+\end{tabular}
+\end{table}

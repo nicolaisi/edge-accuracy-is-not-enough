@@ -1,0 +1,60 @@
+latex/
+table1_results_test_n15_m4/
+cfd_data
+
+._*
+
+# ─── Large data directories ───────────────────────────────────────────────────
+cfd_data/
+acoustic_data/
+synthetic_data/
+
+# ─── Model checkpoints (large binary files) ───────────────────────────────────
+*.pt
+*.pth
+
+# ─── Result directories — keep CSVs/TeX but drop .pt files via above rule ────
+# (CSV and .tex outputs are small and useful to keep; .pt files are excluded above)
+# If you want to exclude result dirs entirely, uncomment:
+# *_results*/
+# table1_results_*/
+# table2_*/
+# table3_*/
+# acoustic_table*/
+# multi_threshold_results/
+# topk_*/
+# results/
+
+# ─── Archives ─────────────────────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.tgz
+
+# ─── Pickled scenario/validation data (large, regenerable intermediates) ──────
+*.pkl
+
+# ─── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Environment ──────────────────────────────────────────────────────────────
+.env
+venv/
+.venv/
+env/
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*~
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

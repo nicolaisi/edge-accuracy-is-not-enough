@@ -1,0 +1,6 @@
+threshold,rmse_mean,rmse_std,rmse_str,output_dir
+0.1,11.5,0.07,11.50 ± 0.07,multi_threshold_results/tau_0.1
+0.2,11.49,0.11,11.49 ± 0.11,multi_threshold_results/tau_0.2
+0.3,11.49,0.11,11.49 ± 0.11,multi_threshold_results/tau_0.3
+0.5,11.49,0.11,11.49 ± 0.11,multi_threshold_results/tau_0.5
+0.7,17.42,0.13,17.42 ± 0.13,multi_threshold_results/tau_0.7

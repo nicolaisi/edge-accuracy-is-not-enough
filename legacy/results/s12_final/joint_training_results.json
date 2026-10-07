@@ -1,0 +1,188 @@
+{
+  "dynamics-focused": {
+    "lambda_dyn": 0.9,
+    "lambda_loc": 0.1,
+    "loc_rmse_mean": 28.903725242614748,
+    "loc_rmse_std": 2.6701652354430374,
+    "dyn_mae_mean": 7131.826416015625,
+    "dyn_mae_std": 346.9419073196525,
+    "jaccard_mean": null,
+    "jaccard_std": null,
+    "individual_results": [
+      {
+        "loc_rmse": 26.808116912841797,
+        "dyn_mae": 6870.974609375,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 29.21012306213379,
+        "dyn_mae": 6875.279296875,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 29.999589920043945,
+        "dyn_mae": 7810.1083984375,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 30.32691192626953,
+        "dyn_mae": 7097.466796875,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 32.02686309814453,
+        "dyn_mae": 7083.056640625,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 32.29561233520508,
+        "dyn_mae": 7172.24072265625,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 22.481847763061523,
+        "dyn_mae": 6837.86572265625,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 29.38569450378418,
+        "dyn_mae": 7717.68994140625,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 28.21356201171875,
+        "dyn_mae": 7139.91064453125,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 28.288930892944336,
+        "dyn_mae": 6713.67138671875,
+        "jaccard": null
+      }
+    ]
+  },
+  "balanced": {
+    "lambda_dyn": 0.5,
+    "lambda_loc": 0.5,
+    "loc_rmse_mean": 27.39329891204834,
+    "loc_rmse_std": 4.369042279246602,
+    "dyn_mae_mean": 7148.368896484375,
+    "dyn_mae_std": 144.68441546079154,
+    "jaccard_mean": null,
+    "jaccard_std": null,
+    "individual_results": [
+      {
+        "loc_rmse": 20.689237594604492,
+        "dyn_mae": 7316.5244140625,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 30.06673240661621,
+        "dyn_mae": 7017.3515625,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 27.627439498901367,
+        "dyn_mae": 7000.4560546875,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 21.346345901489258,
+        "dyn_mae": 7221.20263671875,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 31.487937927246094,
+        "dyn_mae": 7103.60009765625,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 31.0207462310791,
+        "dyn_mae": 6963.93896484375,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 30.58698081970215,
+        "dyn_mae": 7075.462890625,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 29.42013931274414,
+        "dyn_mae": 7386.62060546875,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 20.689172744750977,
+        "dyn_mae": 7328.556640625,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 30.99825668334961,
+        "dyn_mae": 7069.97509765625,
+        "jaccard": null
+      }
+    ]
+  },
+  "localization-focused": {
+    "lambda_dyn": 0.1,
+    "lambda_loc": 0.9,
+    "loc_rmse_mean": 30.561230087280272,
+    "loc_rmse_std": 3.8252828288984273,
+    "dyn_mae_mean": 7060.203369140625,
+    "dyn_mae_std": 111.62902540662486,
+    "jaccard_mean": null,
+    "jaccard_std": null,
+    "individual_results": [
+      {
+        "loc_rmse": 32.90416717529297,
+        "dyn_mae": 6949.2734375,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 19.928930282592773,
+        "dyn_mae": 7009.87939453125,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 31.708906173706055,
+        "dyn_mae": 7040.087890625,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 29.175575256347656,
+        "dyn_mae": 7354.998046875,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 29.550155639648438,
+        "dyn_mae": 6947.109375,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 30.547706604003906,
+        "dyn_mae": 7039.87841796875,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 33.279109954833984,
+        "dyn_mae": 7117.451171875,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 33.43998718261719,
+        "dyn_mae": 7026.2646484375,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 32.40331268310547,
+        "dyn_mae": 7107.66748046875,
+        "jaccard": null
+      },
+      {
+        "loc_rmse": 32.6744499206543,
+        "dyn_mae": 7009.423828125,
+        "jaccard": null
+      }
+    ]
+  }
+}

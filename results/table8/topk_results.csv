@@ -1,0 +1,2 @@
+method,topk,avg_degree,sparsity,rmse_mean,rmse_std,rmse_str
+topk_4,4,4.0,87.5,13.79,0.16,13.79 ± 0.16
